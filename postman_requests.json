@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "c2befe1e-ff9a-4189-8ebc-3b4084e7a845",
+		"name": "demo_sequelize_join",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21803091"
+	},
+	"item": [
+		{
+			"name": "populate usuarios",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/usuarios/populate-usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuarios",
+						"populate-autores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "populate gasolineras",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/gasolineras/populate-gasolineras",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"gasolineras",
+						"populate-gasolineras"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "populate precios",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/gasolineras/populate-precios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"precios",
+						"populate-precios"
+					]
+				}
+			},
+			"response": []
+		}
+
+	]
+}
