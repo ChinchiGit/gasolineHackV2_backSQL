@@ -25,7 +25,7 @@ const borrarTodasLasGasolineras = async (req, res) => {
 
 const obtenerUnaGasolineraYTodosSusPrecios = async (req, res) => {
     try {
-        const { idGasolinera } = req.body;
+        const { idGasolinera } = req.query;
         const query = await Gasolineras.findAll({
             include: {
                 model: Precios,

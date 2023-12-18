@@ -64,11 +64,11 @@ const gasolinerasSeed = [
 
 const preciosSeed = [
     {
-        // idRegistro: "p57690",
+        // idRegistro: "p57692",
         idGasolinera:"be624280-992e-11ee-b25a-4125bb476c55",
-        fecha:"Tue Dec 12 2023 15:50:19 GMT+0100 (hora estándar de Europa central)",
-        precioGasolina: 1.59,
-        precioDiesel: 1.61
+        fecha:"Sun Dec 10 2023 15:50:19 GMT+0100 (hora estándar de Europa central)",
+        precioGasolina: 1.43,
+        precioDiesel: 1.48,
     },
     {
         // idRegistro: "p57691",
@@ -78,8 +78,15 @@ const preciosSeed = [
         precioDiesel: 1.52,
     },
     {
-        // idRegistro: "p57692",
+        // idRegistro: "p57690",
         idGasolinera:"be624280-992e-11ee-b25a-4125bb476c55",
+        fecha:"Tue Dec 12 2023 15:50:19 GMT+0100 (hora estándar de Europa central)",
+        precioGasolina: 1.59,
+        precioDiesel: 1.61
+    },
+    {
+        // idRegistro: "p57694",
+        idGasolinera:"be624280-992e-11ee-b25a-4125bb476c57",
         fecha:"Sun Dec 10 2023 15:50:19 GMT+0100 (hora estándar de Europa central)",
         precioGasolina: 1.43,
         precioDiesel: 1.48,
@@ -92,19 +99,11 @@ const preciosSeed = [
         precioDiesel: 1.52,
     },
     {
-        // idRegistro: "p57694",
-        idGasolinera:"be624280-992e-11ee-b25a-4125bb476c57",
-        fecha:"Sun Dec 10 2023 15:50:19 GMT+0100 (hora estándar de Europa central)",
-        precioGasolina: 1.43,
-        precioDiesel: 1.48,
-    },
-
-    {
-        // idRegistro: "p57695",
+        // idRegistro: "p57697",
         idGasolinera:"be624280-992e-11ee-b25a-4125bb476c58",
-        fecha:"Tue Dec 12 2023 15:50:19 GMT+0100 (hora estándar de Europa central)",
-        precioGasolina: 1.56,
-        precioDiesel: 1.36,
+        fecha:"Sun Dec 10 2023 15:50:19 GMT+0100 (hora estándar de Europa central)",
+        precioGasolina: 1.39,
+        precioDiesel: 1.51,
     },
     {
         // idRegistro: "p57696",
@@ -114,26 +113,10 @@ const preciosSeed = [
         precioDiesel: 1.40,
     },
     {
-        // idRegistro: "p57697",
+        // idRegistro: "p57695",
         idGasolinera:"be624280-992e-11ee-b25a-4125bb476c58",
-        fecha:"Sun Dec 10 2023 15:50:19 GMT+0100 (hora estándar de Europa central)",
-        precioGasolina: 1.39,
-        precioDiesel: 1.51,
-    },
-
-    {
-        // idRegistro: "p57698",
-        idGasolinera:"be624280-992e-11ee-b25a-4125bb476c59",
         fecha:"Tue Dec 12 2023 15:50:19 GMT+0100 (hora estándar de Europa central)",
-        precioGasolina: 1.49,
-        precioDiesel: 1.40,
-    },
-
-    {
-        // idRegistro: "p57699",
-        idGasolinera:"be624280-992e-11ee-b25a-4125bb476c59",
-        fecha:"Mon Dec 11 2023 15:50:19 GMT+0100 (hora estándar de Europa central)",
-        precioGasolina: 1.59,
+        precioGasolina: 1.56,
         precioDiesel: 1.36,
     },
     {
@@ -144,13 +127,20 @@ const preciosSeed = [
         precioDiesel: 1.40,
     },
     {
-        // idRegistro: "p57701",
-        idGasolinera:"be624280-992e-11ee-b25a-4125bb476c60",
+        // idRegistro: "p57699",
+        idGasolinera:"be624280-992e-11ee-b25a-4125bb476c59",
         fecha:"Mon Dec 11 2023 15:50:19 GMT+0100 (hora estándar de Europa central)",
-        precioGasolina: 1.61,
-        precioDiesel: 1.50,
+        precioGasolina: 1.59,
+        precioDiesel: 1.36,
     },
-    
+
+    {
+        // idRegistro: "p57698",
+        idGasolinera:"be624280-992e-11ee-b25a-4125bb476c59",
+        fecha:"Tue Dec 12 2023 15:50:19 GMT+0100 (hora estándar de Europa central)",
+        precioGasolina: 1.49,
+        precioDiesel: 1.40,
+    },
     {
         // idRegistro: "p57702",
         idGasolinera:"be624280-992e-11ee-b25a-4125bb476c60",
@@ -159,8 +149,14 @@ const preciosSeed = [
         precioDiesel: 1.43,
     },
 
-
-
+    {
+        // idRegistro: "p57701",
+        idGasolinera:"be624280-992e-11ee-b25a-4125bb476c60",
+        fecha:"Mon Dec 11 2023 15:50:19 GMT+0100 (hora estándar de Europa central)",
+        precioGasolina: 1.61,
+        precioDiesel: 1.50,
+    },
+    
 ];
 
 //Helper function

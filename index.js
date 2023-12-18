@@ -7,6 +7,13 @@ require('./config/sqlConnection');
 const usuariosRouter = require('./routes/usuariosRoutes');
 const gasolinerasRouter = require('./routes/gasolinerasRoutes');
 const preciosRouter = require('./routes/preciosRoutes');
+const cors = require('cors');
+const corsOptions ={
+    origin:'http://localhost:5173', 
+    credentials:true,           
+    optionSuccessStatus:200
+}
+app.use(cors(corsOptions));
 app.use(express.json());
 
 const helmet = require("helmet")

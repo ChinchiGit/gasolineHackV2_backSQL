@@ -10,8 +10,13 @@ const obtenerUsuarioPorEmail = async (req, res) => {
 };
 
 const crearUsuario = async (req, res) => {
-    const query = await Usuarios.create(req.body);
-    res.status(201).json(query);
+    try{
+        const query = await Usuarios.create(req.body);
+        res.status(201).json(query);
+    } catch (error) {
+        console.log(error);
+        res.status(400).json({ msg: error.message })
+    }
 };
 
 
@@ -30,7 +35,7 @@ const borrarTodosLosUsuarios = async (req, res) => {
 
 const obtenerUnUsuarioYTodasSusGasolineras = async (req, res) => {
     try {
-        const { email } = req.body;
+        const { email } = req.query;
         const query = await Usuarios.findAll({
             include: {
                 model: Gasolineras,
