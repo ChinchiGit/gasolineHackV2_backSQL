@@ -9,7 +9,7 @@ const gasolinerasRouter = require('./routes/gasolinerasRoutes');
 const preciosRouter = require('./routes/preciosRoutes');
 const cors = require('cors');
 const corsOptions ={
-    origin:'http://localhost:5173', 
+    origin:'https://gasolinehack.netlify.app', 
     credentials:true,           
     optionSuccessStatus:200
 }
