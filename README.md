@@ -17,9 +17,7 @@ Gasoline Hack es una aplicación web diseñada para que los usuarios puedan regi
 - **Express.js:** Framework para la creación de la API RESTful.
 - **Sequelize:** ORM para la gestión de la base de datos.
 - **PostgreSQL/MySQL:** Base de datos para almacenar los datos de usuarios, gasolineras y precios.
-- **JWT (JSON Web Tokens):** Para la autenticación y autorización de usuarios.
 
-## Estructura del Proyecto
 
 
   
