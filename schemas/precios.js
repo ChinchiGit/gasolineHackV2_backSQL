@@ -18,13 +18,13 @@ const Precios = db.define("Precios", {
     fecha: {
         field: "fecha",
         type: DataTypes.DATE,
+        unique: true,
         allowNull: false
     },
     precioGasolina: {
         field: "precio_gasolina",
         type: DataTypes.DECIMAL,
         allowNull: false,
-
     },
     precioDiesel: {
         field: "precio_diesel",
@@ -38,7 +38,6 @@ const Precios = db.define("Precios", {
     tableName: 'precios',
     timestamps: 'true',
 });
-
 
 Precios.sync();
 
